@@ -39,3 +39,13 @@ struct Node
 7.Обьединение двух списков.
 
 8.Пересечение двух списков.
+
+# Реализация 1-2 пунктов
+```
+struct List
+{
+    Node* first;
+    Node* last;
+    List() :first(nullptr),last(nullptr){} 
+}
+``` 
