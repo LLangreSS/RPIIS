@@ -5,6 +5,7 @@
 
 # Реализация узла
 ```
+c++
 struct Node
 {
     int value;
