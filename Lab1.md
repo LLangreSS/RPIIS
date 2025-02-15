@@ -3,3 +3,12 @@
 
 ![image](https://github.com/user-attachments/assets/8ade5036-8f59-4cb8-a471-c23b2539e422)
 
+# Реализация узла
+```
+struct Node
+{
+    int value;
+    Node* next;
+    Node(int _value) :value(_value), next(nullptr) {} 
+};
+```
