@@ -8,7 +8,7 @@
 struct Node
 {
     int value;
-    Node * next;
+    Node *next;
     Node(int _value) :value(_value), next(nullptr) {} 
 };
 ```
@@ -44,8 +44,8 @@ struct Node
 ```c++
 struct List
 {
-    Node * first;
-    Node * last;
+    Node *first;
+    Node *last;
     List() :first(nullptr),last(nullptr){} 
 }
 ``` 
